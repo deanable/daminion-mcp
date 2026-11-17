@@ -1,0 +1,14 @@
+# Cloudflare Workers deployment configuration for Daminion MCP server
+name = "daminion-mcp"
+# Use Python runtime (requires Cloudflare Workers with Python support)
+type = "python"
+# Replace with your Cloudflare account ID
+account_id = "<YOUR_ACCOUNT_ID>"
+# Set a recent compatibility date
+compatibility_date = "2024-01-01"
+
+# Environment variables – set these in Cloudflare dashboard or via wrangler secrets
+[vars]
+# DAM_SERVER_URL = "https://your-daminion-server.example.com"
+# DAM_USERNAME = "admin"
+# DAM_PASSWORD = "your_password"
